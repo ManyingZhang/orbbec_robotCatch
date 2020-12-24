@@ -6,8 +6,6 @@
 #include <string.h>
 #include <opencv2/opencv.hpp>
 #include <Eigen/Dense>
-#include "ditpclHeader.h"
-#include "ditpclVisHeader.h"
 #include <vector>
 #include <pcl/point_types.h>
 #include <pcl/io/pcd_io.h>
@@ -19,7 +17,7 @@
 #include <pcl/filters/passthrough.h>
 #include <pcl/segmentation/region_growing.h>
 #include <astra/astra.hpp>
-//#include "../iPCLib/iPCLib_global.h"
+
 # define PI 3.1415926
 
 using namespace Eigen;
